@@ -95,3 +95,7 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [PostGIS](https://postgis.net/) - PostGIS is a spatial database extender for PostgreSQL object-relational database.
 * [Timescaledb](https://www.timescale.com/) - Store time correlated data in postgresql quickly
 * [Redis](https://redis.io/) - In memory remote data structure store
+
+## Message Queues
+[NATS](https://nats.io) - A simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
+[RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker.
