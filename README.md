@@ -97,5 +97,5 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [Redis](https://redis.io/) - In memory remote data structure store
 
 ## Message Queues
-[NATS](https://nats.io) - A simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
-[RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker.
+* [NATS](https://nats.io) - A simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
+* [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker.
