@@ -94,3 +94,4 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [PostgreSQL](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database
 * [PostGIS](https://postgis.net/) - PostGIS is a spatial database extender for PostgreSQL object-relational database.
 * [Timescaledb](https://www.timescale.com/) - Store time correlated data in postgresql quickly
+* [Redis](https://redis.io/) - In memory remote data structure store
