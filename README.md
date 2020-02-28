@@ -69,3 +69,28 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [Compiler Explorer](http://gcc.godbolt.org/) - An interactive compiler with assembly output available.
 
 ## Developer Tools
+* [Jenkins](https://jenkins.io)
+* [ripgrep](https://github.com/BurntSushi/ripgrep)
+* [fd](https://github.com/sharkdp/fd) - find replacement
+* [fzf](https://github.com/junegunn/fzf) - fuzzy searcher plugin for vim, bash, etc.
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [vim](https://www.vim.org/)
+* [tmux](https://github.com/tmux/tmux)
+
+## System Monitoring
+* [Telegraf](https://www.influxdata.com/time-series-platform/telegraf) - An open source server agent to help you collect metrics from your stacks, sensors and systems.  The influxdb folks expect you to use influxdb as the backend, but I prefer postgresql (and timescaledb) because I don't want to maintain another DB.
+* [Prometheus](https://prometheus.io/) - An open-source systems monitoring and alerting toolkit originally built at SoundCloud.
+* [Grafana](https://grafana.com/) - Used by thousands of companies to monitor everything from infrastructure, applications, and power plants to beehives
+* [Jaeger](https://www.jaegertracing.io) - Monitor and troubleshoot transactions in complex distributed systems.  Honestly, I haven't ever needed this - simply writing stats out to prometheus has always been good enough.  Its good to know that this is out there, though.
+
+## Cloud
+* [Docker](http://docker.com)
+* [Consul](https://www.consul.io/docs/platform/k8s/index.html)
+* [Envoy](https://www.envoyproxy.io/)
+* [Nomad](https://www.hashicorp.com/products/nomad)
+* [RancherOS](https://rancher.com/rancher-os) - A lightweight, secure Linux distribution, built from containers to run containers well.
+
+## Database
+* [PostgreSQL](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database
+* [PostGIS](https://postgis.net/) - PostGIS is a spatial database extender for PostgreSQL object-relational database.
+* [Timescaledb](https://www.timescale.com/) - Store time correlated data in postgresql quickly
