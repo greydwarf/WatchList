@@ -52,6 +52,7 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [gRPC](https://github.com/grpc/grpc) - A high performance, open source, general-purpose RPC framework. [BSD] [website](http://www.grpc.io/)
 * [ZeroMQ](https://github.com/zeromq/libzmq) - High-speed, modular asynchronous communication library. [LGPL] [website](http://zeromq.org/)
 * [NATS-C](https://github.com/nats-io/nats.c) - Ultra lightweight messaging system
+* [rdkafka](https://github.com/edenhill/librdkafka) - C++ client library for Apache Kafka
 * [RabbitMQ](https://github.com/alanxz/rabbitmq-c) - Interact with the RabbitMQ messaging queue in C++
 
 ## C++ Tools
@@ -98,4 +99,5 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 
 ## Message Queues
 * [NATS](https://nats.io) - A simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
+* [Kafka](https://kafka.apache.org) - A Distributed streaming platform
 * [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker.
