@@ -7,10 +7,10 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [abseil](https://abseil.io/) - Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library.  I mostly use this for the B+Tree and hashmap implementations, but the string routines are great, too.
 * [cxxopts](https://github.com/jarro2783/cxxopts) -  Lightweight C++ command line option parser.
 * [{fmt}](https://fmt.dev) - Small, safe and fast formatting library.
-* [loguru](https://github.com/emilk/loguru) - Simple logging library that doe what you expect it to and nothing else.
+* [spdlog](https://github.com/gabime/spdlog) - Commonly used logging library
 * [libucl](https://github.com/vstakhov/libucl) - Beautiful configuration parser
-* [Googletest](https://github.com/google/googletest) - Google Testing and Mocking Framework.
-* [Google Benchmark](https://github.com/google/benchmark) - A microbenchmark support library.
+* [Googletest](https://github.com/google/googletest) - Google Testing and Mocking Framework
+* [Google Benchmark](https://github.com/google/benchmark) - A microbenchmark support library
 * [backward-cpp](https://github.com/bombela/backward-cpp) - A beautiful stack trace pretty printer for C++. [MIT]
 * [Eigen](http://eigen.tuxfamily.org/) - A high-level C++ library of template headers for linear algebra, matrix and vector operations, numerical solvers and related algorithms. [MPL2]
 * [PCRE](http://pcre.org/) - A regular expression C library inspired by the regular expression capabilities in Perl. [BSD]
@@ -27,9 +27,6 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [FlatBuffers](https://github.com/google/flatbuffers) - A Memory efficient serialization library. [Apache2]
 * [protobuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format. [BSD]
 * [json](https://github.com/nlohmann/json) - JSON for Modern C++.
-* [Vince's CSV Parser](https://github.com/vincentlaucsb/csv-parser) - A fast, self-contained, streaming C++17 CSV parser with optional type-casting and statistics. [MIT]
-* [Libxml2](http://xmlsoft.org/) - The XML C parser and toolkit of Gnome. [MIT]
-
 
 ### Threading, Async, etc.
 * [Intel TBB](https://www.threadingbuildingblocks.org/) - Intel® Threading Building Blocks. [Apache2]
@@ -40,8 +37,6 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 
 ### Database
 * [Hiredis](https://github.com/redis/hiredis) - A minimalistic C client library for the Redis database. [BSD]
-* [LMDB](http://symas.com/mdb/) - Very fast embedded key/value store with full ACID semantics. [OpenLDAP]
-* [LMDB++](https://github.com/bendiken/lmdbxx) - C++11 wrapper for the LMDB embedded database library. [PublicDomain]
 * [RocksDB](https://github.com/facebook/rocksdb) - Embedded key-value store for fast storage from facebook. [BSD]
 * [SimDB](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) - High performance, shared memory, lock free, cross platform, single file, minimal dependencies, C++11 key-value store (This is Alpha, but worth keeping an eye on) [Apache2]
 * [SQLite](http://www.sqlite.org/) - A completely embedded, full-featured relational database in a few 100k that you can include right into your project. [PublicDomain]
