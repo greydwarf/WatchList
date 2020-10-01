@@ -4,9 +4,13 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 
 ## C++ Libraries
 ### Core
-* [abseil](https://abseil.io/) - Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library.  I mostly use this for the B+Tree and hashmap implementations, but the string routines are great, too.
+I will usually use one of these two sets of core libraries. I use Abseil when I am working on a system that is worried about minimizing dependendencies. Otherwise, I use several libraries:
+* [abseil](https://abseil.io/) - Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library. 
+*or*
 * [cxxopts](https://github.com/jarro2783/cxxopts) -  Lightweight C++ command line option parser.
 * [{fmt}](https://fmt.dev) - Small, safe and fast formatting library.
+* [parallel-hashmap](https://github.com/greg7mdp/parallel-hashmap) Essentially a reqrite of the Abseil hashmaps and btree implementations, but it has a wrapper around X of them, thus increasing the parallelization significantly.
+Then I pick and choose from these, depending on the actual needs:
 * [spdlog](https://github.com/gabime/spdlog) - Commonly used logging library
 * [libucl](https://github.com/vstakhov/libucl) - Beautiful configuration parser
 * [Googletest](https://github.com/google/googletest) - Google Testing and Mocking Framework
@@ -14,7 +18,6 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [backward-cpp](https://github.com/bombela/backward-cpp) - A beautiful stack trace pretty printer for C++. [MIT]
 * [Eigen](http://eigen.tuxfamily.org/) - A high-level C++ library of template headers for linear algebra, matrix and vector operations, numerical solvers and related algorithms. [MPL2]
 * [PCRE](http://pcre.org/) - A regular expression C library inspired by the regular expression capabilities in Perl. [BSD]
-
 
 ### Compression Libraries
 * [bzip2](http://www.bzip.org/) - A freely available, patent free, high-quality data compressor. [BSD]
@@ -24,6 +27,7 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 * [zstd](https://github.com/facebook/zstd) - Zstandard - Fast real-time compression algorithm. Developed by Facebook. [BSD]
 
 ### Serialization
+Most of the time, protobuf is a good balance of features, ease of use, and perfomance. Sometimes though, you just want your data to be human readable and widely adoptable. In that case, reach for JSON. Sometimes you want performance above all else. Flatbuffers is for these cases.
 * [FlatBuffers](https://github.com/google/flatbuffers) - A Memory efficient serialization library. [Apache2]
 * [protobuf](https://github.com/protocolbuffers/protobuf) - Protocol Buffers - Google's data interchange format. [BSD]
 * [json](https://github.com/nlohmann/json) - JSON for Modern C++.
@@ -36,10 +40,10 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 
 
 ### Database
-* [Hiredis](https://github.com/redis/hiredis) - A minimalistic C client library for the Redis database. [BSD]
-* [RocksDB](https://github.com/facebook/rocksdb) - Embedded key-value store for fast storage from facebook. [BSD]
-* [SimDB](https://github.com/LiveAsynchronousVisualizedArchitecture/simdb) - High performance, shared memory, lock free, cross platform, single file, minimal dependencies, C++11 key-value store (This is Alpha, but worth keeping an eye on) [Apache2]
 * [SQLite](http://www.sqlite.org/) - A completely embedded, full-featured relational database in a few 100k that you can include right into your project. [PublicDomain]
+* [RocksDB](https://github.com/facebook/rocksdb) - Embedded key-value store for fast storage from facebook. [BSD]
+* [Hiredis](https://github.com/redis/hiredis) - A minimalistic C client library for the Redis database. [BSD]
+* [libpqxx](https://github.com/jtv/libpqxx) - C++ interface to PostgreSQL [BSD-3]
 
 ### IPC
 * [cpr](https://github.com/whoshuu/cpr) - C++ Requests: Curl for People, a spiritual port of Python Requests.
