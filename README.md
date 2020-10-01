@@ -6,6 +6,7 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 ### Core
 I will usually use one of these two sets of core libraries. I use Abseil when I am working on a system that is worried about minimizing dependendencies. Otherwise, I use several libraries:
 * [abseil](https://abseil.io/) - Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library. 
+
 _or_
 * [cxxopts](https://github.com/jarro2783/cxxopts) -  Lightweight C++ command line option parser.
 * [{fmt}](https://fmt.dev) - Small, safe and fast formatting library.
