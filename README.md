@@ -6,10 +6,11 @@ Originally, I was using "stars" for this, but I really wanted to be able to grou
 ### Core
 I will usually use one of these two sets of core libraries. I use Abseil when I am working on a system that is worried about minimizing dependendencies. Otherwise, I use several libraries:
 * [abseil](https://abseil.io/) - Abseil is an open-source collection of C++ code (compliant to C++11) designed to augment the C++ standard library. 
-*or*
+_or_
 * [cxxopts](https://github.com/jarro2783/cxxopts) -  Lightweight C++ command line option parser.
 * [{fmt}](https://fmt.dev) - Small, safe and fast formatting library.
 * [parallel-hashmap](https://github.com/greg7mdp/parallel-hashmap) Essentially a reqrite of the Abseil hashmaps and btree implementations, but it has a wrapper around X of them, thus increasing the parallelization significantly.
+
 Then I pick and choose from these, depending on the actual needs:
 * [spdlog](https://github.com/gabime/spdlog) - Commonly used logging library
 * [libucl](https://github.com/vstakhov/libucl) - Beautiful configuration parser
