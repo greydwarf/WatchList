@@ -101,4 +101,4 @@ Most of the time, protobuf is a good balance of features, ease of use, and perfo
 ## Message Queues
 * [NATS](https://nats.io) - A simple, secure and high performance open source messaging system for cloud native applications, IoT messaging, and microservices architectures.
 * [Kafka](https://kafka.apache.org) - A Distributed streaming platform
-* [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source message broker.
+* [RabbitMQ](https://www.rabbitmq.com/) - The most widely deployed open source AMPQ broker.
