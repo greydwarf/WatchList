@@ -90,7 +90,7 @@ Most of the time, protobuf is a good balance of features, ease of use, and perfo
 * [Consul](https://www.consul.io/docs/platform/k8s/index.html)
 * [Envoy](https://www.envoyproxy.io/)
 * [Nomad](https://www.hashicorp.com/products/nomad)
-* [RancherOS](https://rancher.com/rancher-os) - A lightweight, secure Linux distribution, built from containers to run containers well.
+* [RancherOS](https://rancher.com) - A lightweight, secure Linux distribution, built from containers to run containers well.
 
 ## Database
 * [PostgreSQL](https://www.postgresql.org/) - The World's Most Advanced Open Source Relational Database
